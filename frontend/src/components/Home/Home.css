@@ -181,7 +181,7 @@
   height: inherit;
 }
 
-.homeCubeSkillsFace1 { transform: translate3d(0, 0, 100px); }
+.homeCubeSkillsFace1 { transform: translate3d(0, 0, 150px); }
 .homeCubeSkillsFace2 { transform: rotateY(180deg) translate3d(0, 0, 150px); }
 .homeCubeSkillsFace3 { transform: rotateY(-90deg) translate3d(0, 0, 150px); }
 .homeCubeSkillsFace4 { transform: rotateY(90deg) translate3d(0, 0, 150px); }
@@ -316,12 +316,10 @@
     height: 100px;
   }
 
-  .homeCubeSkillsFace1,
-  .homeCubeSkillsFace2,
-  .homeCubeSkillsFace3,
-  .homeCubeSkillsFace4,
-  .homeCubeSkillsFace5,
-  .homeCubeSkillsFace6 {
-    transform: translate3d(0, 0, 75px);
-  }
+  .homeCubeSkillsFace1 {transform: translate3d(0, 0, 75px);}
+  .homeCubeSkillsFace2 { transform: rotateY(180deg) translate3d(0, 0, 75px); }
+  .homeCubeSkillsFace3 { transform: rotateY(-90deg) translate3d(0, 0, 75px); }
+  .homeCubeSkillsFace4 { transform: rotateY(90deg) translate3d(0, 0, 75px); }
+  .homeCubeSkillsFace5 { transform: rotateX(90deg) translate3d(0, 0, 75px); }
+  .homeCubeSkillsFace6 { transform: rotateX(-90deg) translate3d(0, 0, 75px); }
 }
